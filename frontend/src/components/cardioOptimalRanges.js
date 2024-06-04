@@ -1,0 +1,16 @@
+export const cardioOptimalRanges = {
+  blood_pressure_systolic: { min: 0, max: 120 },
+  blood_pressure_diastolic: { min: 0, max: 80 },
+  heart_rate: { min: 60, max: 100 },
+  respiratory_rate: { min: 12, max: 18 },
+  hematocrit: { min: 35, max: 49 },
+  hemoglobin: { min: 11, max: 17 },
+  platelets: { min: 135, max: 370 },   
+  red_blood_cells: { min: 4, max: 6 },
+  white_blood_cells: { min: 5, max: 11 },
+  hdl_cholesterol: { min: 50, max: 200 },
+  ldl_cholesterol: { min: 0, max: 100 },
+  total_cholesterol: { min: 0, max: 200 },
+  triglicerides: { min: 0, max: 150 },
+  albumin: { min: 3.4, max: 5.4 },
+};
